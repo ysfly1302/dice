@@ -11,11 +11,14 @@ h1{
     text-align: center;
 }
 #saikoro{
-  width: 30%;
-  margin: auto 35%;
+  width: 300px;
+  height: 300px;
   border: solid 2px black;
   border-radius: 10px;
   object-fit: cover;
+}
+.center{
+  text-align: center;
 }
 #dot1{
   width: 180px;
