@@ -1,0 +1,18 @@
+@charset "utf-8";
+h1{
+    text-align: center;
+}
+#dice{
+    margin: auto;
+    width: 200px;
+    background: red;
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+#saikoro{
+  width: 30%;
+  margin: auto 35%;
+  border: solid 2px black;
+  border-radius: 10px;
+}
