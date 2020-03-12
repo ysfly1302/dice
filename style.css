@@ -16,3 +16,81 @@ h1{
   border: solid 2px black;
   border-radius: 10px;
 }
+#dot1{
+  width: 180px;
+  height: 180px;
+  background-size: 180px 180px;
+  margin: 0 auto;
+  background-image: radial-gradient(red 18%, white 20%);
+  border: solid 1px black;
+}
+#dot2{
+  width: 180px;
+  height: 180px;
+  background-size: 180px 180px;
+  margin: 0 auto;
+  background-color: white;
+  background-image: radial-gradient(black 18%, transparent 20%),
+                    radial-gradient(black 18%, transparent 20%);
+  background-position: -50px -50px, 50px 50px;
+  border: solid 1px black;
+}
+#dot3{
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  background-color: white;
+  border: solid 1px black;
+  position: relative;
+}
+#dot31,#dot32,#dot33{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-image: radial-gradient(black 50%, transparent 90%);
+}
+#dot31{
+  position: absolute;
+      top: 10px;
+      left: 10px;
+}
+#dot32{
+  position: absolute;
+      left: 70px;
+      top: 70px;
+}
+#dot33{
+  position: absolute;
+      bottom: 10px;
+      right: 10px;
+}
+#dot4{
+  width: 180px;
+  height: 180px;
+  background-size: 90px 90px;
+  margin: 0 auto;
+  background-image: radial-gradient(black 30%, white 34%);
+  border: solid 1px black;
+}
+#dot5{
+  width: 180px;
+  height: 180px;
+  background-size: 110px 110px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: radial-gradient(black 23%, transparent 26%),
+                      radial-gradient(black 23%, transparent 26%);
+    background-position: -20px -20px, 35px 35px;
+    border: solid 1px black;
+}
+#dot6{
+  width: 180px;
+  height: 180px;
+  background-size: 110px 110px;
+    margin: 0 auto;
+    background-color: white;
+    background-image: radial-gradient(black 23%, transparent 26%),
+                      radial-gradient(black 23%, transparent 26%);
+    background-position: -20px -20px, -20px 36px;
+    border: solid 1px black;
+}
