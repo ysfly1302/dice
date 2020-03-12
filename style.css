@@ -12,9 +12,11 @@ h1{
 }
 #saikoro{
   width: 30%;
+  height: 260px;
   margin: auto 35%;
   border: solid 2px black;
   border-radius: 10px;
+  object-fit: cover;
 }
 #dot1{
   width: 180px;
